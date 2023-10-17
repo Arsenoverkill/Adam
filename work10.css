@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER/ */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+height: 140px;
+margin-top: 30px;
+}
+.links{
+    display: flex;
+    margin-right: 350px;
+}
+.links a{
+    margin: 0 16px;
+}
+.a{
+    color: #25202F;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 500;
+}
+.aa{
+    color: #7E7F86;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 500;
+}
+/* HERO */
+#hero{
+    margin-top: 100px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero h3{
+    color: #667;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+}
+.hero h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 60px;
+font-weight: 700;
+margin: 10px 0;
+}
+.hero button{
+    width: 180px;
+height: 60px;
+border-radius: 100px;
+background: #8643DC;
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+margin-top: 60px;
+}
+.hero img{
+    position: absolute;
+    right: 240px;
+    top: 60px;
+}
+/* SERVICE */
+#service{
+    margin-top: 100px;
+}
+.service h3{
+    color: #8643DC;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.hr{
+    width: 60px;
+    margin: 15px 0;
+    background: #8643DC;
+    height: 3px;
+}
+.service h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.blocks{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 360px;
+    height: 250px;
+}
+.ux{
+    display: flex;
+}
+.ux h2{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 20px;
+}
+.block p{
+margin-top: 15px;
+color: #47444E;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+/* PROFIL */
+#profil{
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+}
+.gg {
+    padding: 30px 0;
+}
+.profil h3{
+    color: #8643DC;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.zagolovok{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profil h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.profil h2{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+.img-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+/* CLIENTS/ */
+#clients{
+    margin-top: 100px;
+}
+.clients h3{
+color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.clients h1{
+    color: #25202F;
+    font-family: Red Hat Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bllocks-2{
+display: flex;
+justify-content: space-between;
+margin-top: 70px;
+}
+.bllocks-2 h2{
+    color: #000;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.bllinks{
+    width: 210px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #FFE7F0;
+background: #FFF6FA;
+}
+.bllinks img{
+    margin-top: 50px;
+    margin-left: 80px;
+    }
+    .bllinks h2{
+        margin-top: 20px;
+    }
+.bllinks-2{
+    width: 210px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #CAFFE1;
+background: #EDFFF5;
+}
+.bllinks-2 img{
+    margin-top: 50px;
+    margin-left: 80px;
+    }
+    .bllinks-2 h2{
+        margin-top: 20px;
+    }
+.bllinks-3{
+    width: 210px;
+height: 170px;
+;border-radius: 10px;
+border: 1px solid #CAFFE1;
+background: #EDFFF5;
+}
+.bllinks-3 img{
+    margin-top: 50px;
+    margin-left: 80px;
+    }
+    .bllinks-3 h2{
+        margin-top: 20px;
+    }
+.bllinks-4{
+    width:210px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #FFEEC9;
+background: #FFFBF2;
+}
+.bllinks-4 img{
+    margin-top: 50px;
+    margin-left: 80px;
+    }
+    .bllinks-4 h2{
+        margin-top: 20px;
+    }
+.bllinks-5{
+    width: 210px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #FFEEC9;
+background: #FFFBF2;
+}
+.bllinks-5 img{
+margin-top: 50px;
+margin-left: 80px;
+}
+.bllinks-5 h2{
+    margin-top: 20px;
+}
+/* TERMISER */
+#termiser{
+    margin-top: 100px;
+}
+/* BLOG */
+#blog{
+    margin-top: 100px;
+}
+.blog{
+    display: flex;
+}
+.blog h4{
+    color: #8643DC;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blog h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.blog span{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.blog h3{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+top: 220px;
+right: 260px;
+width: 200px;
+}
+.left-blog{
+    margin-left: 40px;
+}
+.left-blog h2{
+    color: #000;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.left-blog h4{
+    margin: 10px 0;
+}
+.center-blog{
+    margin-left: 30px;
+}
+.right-blog{
+    margin-left: 30px;
+}
+.shadow-1{
+    position: absolute;
+    top: 3638px;
+    left: 731px;
+}
+.shadow-2{
+    position: absolute;
+    top: 3638px;
+    left: 1020px;
+}
+.foto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foto img{
+    margin: 1px;
+}
+.rech{
+    position: absolute;
+   right: 520px; 
+   top: 3870px;
+}
+.rech-2{
+    position: absolute;
+    right: 230px;
+    top: 3870px;
+}
+/* FOOTER/ */
+.footer img{
+    width:1471px;
+}
